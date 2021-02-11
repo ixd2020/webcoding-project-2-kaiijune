@@ -175,7 +175,9 @@ h3 {
 .thumbnail {
   line-height: 27px;
 }
-
+.thumbnail a {
+  color: #1967d2;
+}
 .thumbnail a:hover {
   text-decoration: none;
 }
@@ -500,6 +502,9 @@ footer {
 }
 
 /*jobs page*/
+.note a {
+  color: #1967d2;
+}
 .join {
   display: flex;
   margin-top: 80px;
@@ -510,8 +515,7 @@ footer {
 }
 
 .present {
-  margin-left: 30px;
-  margin-right: 30px;
+  padding: 20px;
 }
 
 .grass h1 {
@@ -540,6 +544,9 @@ footer {
 .team {
   margin-right: 30px;
 }
+.team a {
+  color: #1967d2;
+}
 
 .dynamic img {
   width: 30%;
@@ -552,7 +559,7 @@ footer {
 }
 
 .fun {
-  margin-right: 20px;
+  padding: 20px;
 }
 
 .program {
@@ -669,6 +676,10 @@ footer {
   font-size: 1.125rem;
 }
 
+.push a {
+  color: #39798D;
+}
+
 .seventeen {
   display: flex;
   justify-content: flex-end;
@@ -725,6 +736,9 @@ footer {
 
 .energy ul li p {
   font-size: 1.125rem;
+}
+.energy a {
+  color: #39798D;
 }
 
 .scary {
@@ -927,9 +941,84 @@ button {
   }
 
   /*flower page*/
-  
+  .searchAdaptwhite {
+    display: block;
+  }
+
+  .hamburgerwhite {
+    display: block;
+  }
+
+  .logoAdaptwhite {
+    margin-right: 110px;
+    margin-left: 80px;
+  }
+
+  .topnavAdaptwhite {
+    display: none;
+  }
+
+  .indexnavAdaptwhite {
+    justify-content: center;
+    left: 80px;
+  }
+
+  .year {
+    padding: 200px;
+  }
+
+  .best {
+    padding: 30px;
+  }
+
+  .push {
+    padding: 30px;
+  }
+
+  .fuel {
+    padding: 30px;
+  }
+
+  .works {
+    line-height: 20px;
+  }
+
+  .contribute {
+    padding: 30px;
+  }
+  .scary {
+    padding: 30px;
+  }
+
   /*job*/
-  .join{
-    display:flex;
+  .join {
+    flex-direction: column;
+  }
+
+  .dynamic {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .dynamic img {
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  .excited {
+    flex-direction: column;
+  }
+  .motion {
+    flex-direction: column;
+  }
+
+  .program {
+    flex-direction: column;
+  }
+  .writer {
+    flex-direction: column;
+  }
+  .review {
+    flex-direction: column;
   }
 }
